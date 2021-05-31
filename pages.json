@@ -1,0 +1,127 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登陆页"
+			}
+		},
+		{
+			"path": "pages/somePage/ourgroup",
+			"style": {
+				"navigationBarTitleText": "测试详细页"
+			}
+		},
+		{
+			"path": "pages/somePage/testDetail",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "课堂"
+			}
+		},
+		{
+			"path": "pages/login/change",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆页"
+			}
+		},
+		{
+			"path": "pages/class/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/center/logout",
+			"style": {
+				"navigationBarTitleText": "账号管理"
+			}
+		},
+
+		{
+			"path": "pages/somePage/achievement",
+			"style": {
+				"navigationBarTitleText": "成绩"
+			}
+		}, {
+			"path": "pages/somePage/analysis",
+			"style": {
+				"navigationBarTitleText": "分析"
+			}
+		}, {
+			"path": "pages/somePage/performance",
+			"style": {
+				"navigationBarTitleText": "表现"
+			}
+		}, {
+			"path": "pages/somePage/signIn",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		}, {
+			"path": "pages/somePage/wrong",
+			"style": {
+				"navigationBarTitleText": "错题"
+			}
+		}, {
+			"path": "pages/login/sign",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/somePage/createTest",
+			"style": {
+				"navigationBarTitleText": "试卷"
+			}
+		},{
+			"path": "pages/somePage/studentList",
+			"style": {
+				"navigationBarTitleText": "学生评分"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#0188FB",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#D9220C",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-check.png"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"text": "我的",
+				"iconPath": "static/icon/user.png",
+				"selectedIconPath": "static/icon/user-check.png"
+			}
+		]
+	}
+}
